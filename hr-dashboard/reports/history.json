@@ -1,0 +1,60 @@
+[
+  {
+    "id": "20261015_144228",
+    "fecha": "2026-10-15T14:42:28.253606",
+    "fecha_display": "15/10/2026 14:42",
+    "archivo": "ejemplo_hr.xlsx (demo)",
+    "kpis": {
+      "headcount": {
+        "valor": 32,
+        "estado": "neutral",
+        "label": "Headcount Activos"
+      },
+      "rotacion_pct": {
+        "valor": 15.38,
+        "estado": "danger",
+        "label": "Tasa de Rotación"
+      },
+      "ausentismo_pct": {
+        "valor": 52.41,
+        "estado": "danger",
+        "label": "Tasa de Ausentismo"
+      },
+      "nomina_total": {
+        "valor": "1331474",
+        "estado": "neutral",
+        "label": "Nómina Mensual"
+      },
+      "altas": {
+        "valor": 0,
+        "estado": "neutral",
+        "label": "Altas (30 días)"
+      },
+      "bajas_periodo": {
+        "valor": 0,
+        "estado": "success",
+        "label": "Bajas (período)"
+      },
+      "antiguedad_promedio": {
+        "valor": 7.4,
+        "estado": "neutral",
+        "label": "Antigüedad Promedio"
+      }
+    },
+    "filtros_aplicados": {
+      "departamentos": [
+        "Legal",
+        "Finanzas"
+      ],
+      "ubicaciones": null,
+      "estatus": [
+        "Activo",
+        "Baja",
+        "Suspendido"
+      ],
+      "tipos_contrato": null,
+      "fecha_ingreso_desde": "2011-10-19T00:00:00",
+      "fecha_ingreso_hasta": "2026-10-05T00:00:00"
+    }
+  }
+]
