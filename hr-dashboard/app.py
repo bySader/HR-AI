@@ -608,12 +608,13 @@ else:
                         if key in k:
                             val = k[key]["valor"]
                             estado = k[key]["estado"]
+                            numeric_val = float(val)
                             if "pct" in key:
-                                val_str = f"{val:.2f}%"
+                                val_str = f"{numeric_val:.2f}%"
                             elif key == "nomina_total":
-                                val_str = f"${val:,.0f}"
+                                val_str = f"${numeric_val:,.0f}"
                             else:
-                                val_str = f"{int(val):,}"
+                                val_str = f"{int(numeric_val):,}"
                             col.metric(label, val_str)
 
                     filtros = record.get("filtros_aplicados", {})
